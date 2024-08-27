@@ -1,0 +1,123 @@
+body {
+    background: linear-gradient(to top, #0b6623, #c5e1a5); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3rem 3rem 5% 5%; 
+    padding: 0.5rem;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: rgb(33, 26, 70);
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: black; 
+  border: inset rgba(127, 252, 221, 0.7); 
+  padding: 1rem; 
+  border-radius: 0.75rem;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 1.5rem; 
+  margin-right: 1.5rem;
+}
+
+a:link,
+a:visited {
+  color: white; 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: #cccccc; 
+  text-decoration: underline; 
+}
+
+a:active {
+  color: #999999; 
+}
+
+section {
+  display: flex;
+  margin-top: 1rem;
+}
+
+article {
+  flex: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: rgb(249, 249, 249);
+  border-radius: 0.75rem;
+  color: rgb(31, 12, 83);
+  transition: 0.5s;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.main-article {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/desert-garden.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+}
+
+article:hover {
+  box-shadow: 5px 10px 20px rgb(0, 0, 0);
+  transform: scale(105%);
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article {
+  font-size: 0.7rem;
+  word-wrap: break-word;
+}
+
+.hours {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  padding: 0.5rem;
+}
+
+footer div {
+  flex: 1;
+}
+
+footer img {
+  border: inset rgb(60, 79, 146) 0.2rem;
+  border-radius: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  background-color: white;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: white;
+  text-align: right;
+  border-top: solid rgb(205, 75, 46) 0.1rem;
+}
